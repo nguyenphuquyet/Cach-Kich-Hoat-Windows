@@ -1,53 +1,54 @@
-An guide how to activate Windows 11 Pro for free
-## Why?
-Because you will get some more features like an Bitlocker and host your device as an External Desktop which can be accessed through the internet
-## Am i also able to switch from any other edition to Pro?
-The answer is yes! You can switch from almost any edition to Pro completely for free!
-## Note for users with unactivated Pro edition
-People which already have Pro, but not activated, can skip to [this step](https://gist.github.com/Minionguyjpro/d913b3931e844ad8ad9a758a4aca4b63#activating-windows-pro).
-## Getting started
-What you first need to do is open CMD (Command Prompt) as Administrator using this keyboard key:
+Hướng dẫn cách kích hoạt Windows 11 Pro miễn phí
+## Tại sao?
+Bởi vì bạn sẽ nhận được một số tính năng khác như Bitlocker và lưu trữ thiết bị của mình dưới dạng Máy tính để bàn ngoài có thể truy cập qua Internet
+## Tôi cũng có thể chuyển từ bất kỳ phiên bản nào khác sang Pro không?
+Câu trả lời là có! Bạn có thể chuyển từ hầu hết mọi phiên bản sang Pro hoàn toàn miễn phí!
+## Lưu ý cho người dùng có phiên bản Pro chưa kích hoạt
+Những người đã có Pro nhưng chưa kích hoạt có thể bỏ qua [bước này](https://gist.github.com/Minionguyjpro/d913b3931e844ad8ad9a758a4aca4b63#activating-windows-pro).
+## Bắt đầu
+Đầu tiên, bạn cần mở CMD (Command Prompt) với tư cách Quản trị viên bằng phím bàn phím này:
 
-Windows-logo key+ R
+Phím logo Windows + R
 
-And now type in "cmd.exe" in the box
+Và bây giờ nhập "cmd.exe" vào hộp
 
-It should now look as something like this:
+Bây giờ nó sẽ trông giống như thế này:
 
 ![image](https://user-images.githubusercontent.com/66115754/134801377-b9769c34-8a9d-4d4f-ba8e-6c073f1ce4a2.png)
 
-Now press this keys on your keyboard:
+Bây giờ hãy nhấn các phím này trên bàn phím của bạn:
 
 ctrl+shift+enter
 
-Now you have something like this:
+Bây giờ bạn sẽ có thứ gì đó giống như cái này:
 
 ![image](https://user-images.githubusercontent.com/66115754/134801445-9b90e121-350b-42ea-afec-b499f1fbfae9.png)
 
-Now, click on "yes"
+Bây giờ, nhấp vào "có"
 
-Now you have something like this:
+Bây giờ bạn có thứ gì đó như thế này:
 
 ![image](https://user-images.githubusercontent.com/66115754/134807479-53ccdaf9-feb0-49a3-9843-5bb4db016128.png)
 
-### The commands
-Now, type the following command:
+### Các lệnh
+Bây giờ, nhập lệnh sau:
 ``slmgr.vbs /upk``
-Now it will give an message, click on OK
+Bây giờ nó sẽ đưa ra một thông báo, nhấp vào OK
 
-And now this command:
+Và bây giờ lệnh này:
 ``slmgr.vbs /cpky``
-It will give an message once again, and click on OK again
+Nó sẽ đưa ra một thông báo một lần nữa, và nhấp vào OK một lần nữa
 
-And now type this command:
+Và bây giờ hãy nhập lệnh này:
 ``slmgr.vbs /ckms``
-Once again click on OK when you get an message
-### Edition upgradable check command
-Now we are gonna check of your edition is supported to upgrade to Pro, run the following command to check this:
+Một lần nữa hãy nhấp vào OK khi bạn nhận được thông báo
+### Lệnh kiểm tra khả năng nâng cấp phiên bản
+Bây giờ chúng ta sẽ kiểm tra xem phiên bản của bạn có được hỗ trợ để nâng cấp lên Pro không, hãy chạy lệnh sau để kiểm tra:
 ``DISM /online /Get-TargetEditions``
-If you see "Professional" in the list, then you can upgrade your Windows edition to Pro for free!
-### Running Windows Pro installer
-Now, copy and paste this complete command:
+Nếu bạn thấy "Professional" trong danh sách, thì bạn có thể nâng cấp phiên bản Windows của mình lên Pro miễn phí!
+
+### Chạy trình cài đặt Windows Pro
+Bây giờ, hãy sao chép và dán lệnh đầy đủ này:
 
 ``sc config LicenseManager start= auto & net start LicenseManager``
 
@@ -57,46 +58,47 @@ Now, copy and paste this complete command:
 
 ``exit``
 
-It will run an installer and you will see an message:"% complete"
+Nó sẽ chạy trình cài đặt và bạn sẽ thấy thông báo: "% hoàn thành"
 
-Now wait until it's 100% and it's not weird that you will get an error
+Bây giờ hãy đợi cho đến khi đạt 100% và không có gì lạ khi bạn gặp lỗi
 
-When you get the error, just click Exit and then reboot your pc.
+Khi gặp lỗi, chỉ cần nhấp vào Thoát rồi khởi động lại máy tính của bạn.
 
-You will now see an message that he is running updates and is installing features, just wait until its done and check "info" in settings, You will see that Windows 11 Pro is installed! 
+Bây giờ bạn sẽ thấy thông báo rằng nó đang chạy bản cập nhật và đang cài đặt các tính năng, chỉ cần đợi cho đến khi hoàn tất và kiểm tra "thông tin" trong cài đặt, bạn sẽ thấy Windows 11 Pro đã được cài đặt!
 
-But we are not done, You will see that it isn't activated and that you can't change some settings, now we are gonna fix that!
-## Activating Windows Pro
-Now we are gonna run some other commands to activate Windows 11 Pro
+Nhưng chúng ta chưa xong, bạn sẽ thấy rằng nó chưa được kích hoạt và bạn không thể thay đổi một số cài đặt, bây giờ chúng ta sẽ sửa lỗi đó!
 
-Press these keyboard keys once again:
+## Kích hoạt Windows Pro
+Bây giờ chúng ta sẽ chạy một số lệnh khác để kích hoạt Windows 11 Pro
 
-Windows-logo key+R
+Nhấn các phím bàn phím này một lần nữa:
 
-It looks like this again:
+Phím logo Windows+R
+
+Nó trông giống thế này một lần nữa:
 
 ![Run Dialog With cmd.exe Text In It](https://user-images.githubusercontent.com/66115754/134801377-b9769c34-8a9d-4d4f-ba8e-6c073f1ce4a2.png)
 
-Press ctrl+shift+enter
+Nhấn ctrl+shift+enter
 
-You will get an message, just click on Yes
+Bạn sẽ nhận được một thông báo, chỉ cần nhấp vào Có
 
-Now you will get an Command Prompt.
+Bây giờ bạn sẽ nhận được Dấu nhắc lệnh.
 
-Type the following commands one for one to activate:
+Nhập từng lệnh sau để kích hoạt:
 
 ``slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX``
 
 ``slmgr /skms kms8.msguides.com``
 
 ``slmgr /ato``
- 
-Now you have Windows 11 Pro and it activated! You can check settings to see it.
-# Video Tutorial
-There is also an video tutorial to make it easy to follow. Click on the image below to see the video tutorial on YouTube.
 
-[![Video Tutorial](https://img.youtube.com/vi/Q132Tr40z_8/0.jpg)](https://www.youtube.com/watch?v=Q132Tr40z_8)
+Bây giờ bạn đã có Windows 11 Pro và nó đã được kích hoạt! Bạn có thể kiểm tra cài đặt để xem.
+# Video hướng dẫn
+Ngoài ra còn có video hướng dẫn để bạn dễ dàng làm theo. Nhấp vào hình ảnh bên dưới để xem video hướng dẫn trên YouTube.
 
-# Last Words
-I hope you enjoy it!
-If you have any further questions, you can email me at "Minionguyjpro@gmail.com" or comment on this guide.
+[![Video hướng dẫn](https://img.youtube.com/vi/Q132Tr40z_8/0.jpg)](https://www.youtube.com/watch?v=Q132Tr40z_8)
+
+# Lời cuối
+Tôi hy vọng bạn thích nó!
+Nếu bạn có bất kỳ câu hỏi nào khác, bạn có thể gửi email cho tôi theo địa chỉ "Minionguyjpro@gmail.com" hoặc bình luận về hướng dẫn này.
