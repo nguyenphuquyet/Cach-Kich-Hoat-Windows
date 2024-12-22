@@ -51,11 +51,11 @@ Nếu bạn thấy "Professional" trong danh sách, thì bạn có thể nâng c
 Bây giờ, hãy sao chép và dán lệnh đầy đủ này:
 
      sc config LicenseManager start= auto & net start LicenseManager
-''
+
      sc config wuauserv start= auto & net start wuauserv
-''
+
      changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
-''
+
      exit
 
 Nó sẽ chạy trình cài đặt và bạn sẽ thấy thông báo: "% hoàn thành"
