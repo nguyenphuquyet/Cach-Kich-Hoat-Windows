@@ -50,13 +50,13 @@ Nếu bạn thấy "Professional" trong danh sách, thì bạn có thể nâng c
 ### Chạy trình cài đặt Windows Pro
 Bây giờ, hãy sao chép và dán lệnh đầy đủ này:
 
-``sc config LicenseManager start= auto & net start LicenseManager``
+sc config LicenseManager start= auto & net start LicenseManager
 
-``sc config wuauserv start= auto & net start wuauserv``
+sc config wuauserv start= auto & net start wuauserv
 
-``changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T``
+changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
 
-``exit``
+exit
 
 Nó sẽ chạy trình cài đặt và bạn sẽ thấy thông báo: "% hoàn thành"
 
@@ -87,11 +87,11 @@ Bây giờ bạn sẽ nhận được Dấu nhắc lệnh.
 
 Nhập từng lệnh sau để kích hoạt:
 
-``slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX``
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 
-``slmgr /skms kms8.msguides.com``
+slmgr /skms kms8.msguides.com
 
-``slmgr /ato``
+slmgr /ato
 
 Bây giờ bạn đã có Windows 11 Pro và nó đã được kích hoạt! Bạn có thể kiểm tra cài đặt để xem.
 # Video hướng dẫn
